@@ -89,6 +89,10 @@ header {
     padding: 24px 0;
 }
 
+.list-item .link {
+    display: block;
+}
+
 /* ============================ Logo ============================ */
 .studio-logo {
 color: var(--accent-color);
