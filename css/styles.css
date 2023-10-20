@@ -34,6 +34,7 @@ h6,
 p {
     margin: 0;
 }
+
 ul {
     margin: 0;
     padding-left: 0;
@@ -450,7 +451,7 @@ color: var(--submain-text-color);
 
 .filter-button:active,
 .filter-button:hover,
-.filtlet-button:focus {
+.filter-button:focus {
     background-color: var(--button-extra-color);
     color: var(--main-background-color);
     cursor: pointer;
@@ -475,21 +476,17 @@ color: var(--submain-text-color);
         column-gap: 24px;
 }
 
-.container-filter {
-    width: 360px;
-}
-
 .filter-item {
     width: calc((100% - 48px) / 3); 
 }
 
 .filter-desc {
     padding: 32px 16px;
-    max-width: 328px;
+    max-width: 360px;
     border: 1px solid var(--border-button-color);
-        width: calc((100% - 48px) / 3);
         border-top: none;
 }
+
 .subtitle {
     color: var(--dark-background-color);
         font-family: var(--main-font-family);
